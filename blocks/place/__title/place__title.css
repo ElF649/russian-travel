@@ -1,0 +1,9 @@
+.place__title {
+    flex-basis: 460px;
+    margin-right: 32px;
+    margin-top: 0;    
+    font-size: 72px;
+    line-height: 65px;
+    margin-bottom: 0;
+    padding-bottom: 60px;
+}

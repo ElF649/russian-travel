@@ -1,0 +1,13 @@
+.intro__text {
+    max-width: 383px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.intro__text:first-child {
+    margin-top: 0;
+}
+
+.intro__text:last-child {
+    margin-bottom: 0;
+}

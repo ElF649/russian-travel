@@ -1,0 +1,34 @@
+.video__item {
+    background-size: 100% 100%; 
+    display: block;
+    text-decoration: none;
+    width: 583px;    
+    height: 323px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://cs8.pikabu.ru/post_img/2016/08/07/10/1470589345165653357.jpg);
+    position: relative;
+    color: white;
+    border-radius: 5px;  
+        
+}
+.video__item-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 0;
+    transition: background-color linear .3s;
+    border-radius: 5px;
+    z-index: 0; 
+}
+.video__item:first-child {
+    background-image: url('../../../images/kamchatka.jpg');
+    margin-right: 18px;
+}
+
+.video__item:last-child {
+    background-image: url('../../../images/observe.jpg'); 
+}
