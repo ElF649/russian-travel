@@ -2,7 +2,22 @@
     font-weight: 900;
     font-size: 36px;
     line-height: 39px;
-    margin-top: 0;
+    margin-top: 0;    
+    margin-right: 0px;
     margin-bottom: 18px;
-    max-width: 322px;
 }
+
+@media screen and (max-width : 1023px) {
+    .video__title {
+        font-size: 24px;
+        line-height: 26px;
+        margin-bottom: 8px;
+    }
+}
+
+@media screen and (max-width : 767px) {
+    .video__title {
+        font-size: 24px;
+        line-height: 26px;
+    }
+}  

@@ -5,3 +5,8 @@
     margin-top: 0;
     margin-bottom: 24px;
 }
+@media screen and (max-width : 374px) {
+    .intro__content-row {
+        line-height: 27px;
+    }
+}

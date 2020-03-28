@@ -1,4 +1,3 @@
-
 .header__lang {
     font-family: Inter;
     font-style: normal;
@@ -13,7 +12,4 @@
       
 }
 
-.header__lang:hover {
-    color: white; 
-    text-decoration: underline;   
-}
+

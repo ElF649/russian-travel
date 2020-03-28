@@ -9,3 +9,29 @@
     flex-direction: column;
     align-items: center;    
 }
+
+
+@media screen and (max-width : 1279px) {
+    .cover__container {
+        min-height: 562px;
+    }
+}
+
+@media screen and (max-width : 1023px) {
+    .cover__container {
+        min-height: 500px;
+    }
+}
+
+@media screen and (max-width : 767px) {
+    .cover__container {
+        min-height: 272px;
+    }
+}  
+@media screen and (max-width : 374px) {
+    .cover__container {
+        min-height: 216px;
+    }
+
+}  
+   

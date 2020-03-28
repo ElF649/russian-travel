@@ -11,3 +11,9 @@
 .intro__text:last-child {
     margin-bottom: 0;
 }
+@media screen and (max-width : 374px) {
+    .intro__text {
+        font-size: 12px;
+        line-height: 19px;
+    }
+}

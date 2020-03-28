@@ -4,7 +4,39 @@
     margin-top: 0;    
     font-size: 72px;
     line-height: 65px;
-    margin-bottom: 0;
-    
-    
+    margin-bottom: 0;    
 }
+
+@media screen and (max-width : 1279px) {
+    .place__title {
+        flex-basis: 440px;
+        margin-right: 32px;
+
+    }
+}
+
+@media screen and (max-width : 1023px) {
+    .place__title {
+        font-size: 42px;
+        line-height: 46px;
+        flex-basis: 340px;
+        margin-right: 28px;
+    }
+}
+
+@media screen and (max-width : 767px) {
+    .place__title {
+        font-size: 32px;
+        line-height: 35px;
+        flex-basis: 0px;
+    }
+}    
+@media screen and (max-width : 374px) {
+    .place__title {
+        font-size: 32px;
+        line-height: 35px;
+        flex-basis: 0;
+    }
+}
+
+    
