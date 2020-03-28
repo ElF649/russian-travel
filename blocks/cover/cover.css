@@ -4,12 +4,11 @@
 @import url('./__container-overlay/cover__container-overlay.css');
 
 .cover {
-    background-image: url('../../images/cover.jpg');
-    background-repeat: no-repeat;
+       
     max-height: 594px;
     max-width: 1184px;
     margin: auto;
-    padding-bottom: 160px;
+    
 }
 
 
