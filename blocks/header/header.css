@@ -4,6 +4,8 @@
 
 
 .header {
+    max-width: 1440px;
+    min-width: 320px;
     padding-top: 30px;
     width: calc(100% - 128px * 2);
     margin: auto;

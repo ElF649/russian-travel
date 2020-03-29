@@ -34,6 +34,7 @@
 @media screen and (max-width : 767px) {
     .video__text-container {        
         min-width: 295px; 
+        max-width: 295px;
         padding-right: 24px;      
     }
     .video__item:first-child .video__text-container {        
@@ -45,6 +46,7 @@
 @media screen and (max-width : 374px) {
     .video__text-container {        
         min-width: 256px;
+        max-width: 256px;
         padding-left: 16px; 
         padding-right: 16px; 
         padding-top: 80px;

@@ -10,6 +10,8 @@
     margin: auto;
     padding-bottom: 48px;
     align-items: baseline;
+    max-width: 1440px;
+    min-width: 320px;
 }
 
 @media screen and (max-width : 1439px) {
