@@ -1,4 +1,4 @@
-.content-subtitle {
+.content-subtitle {    
     text-align: center;
     margin: 0 auto;
     font-size: 24px;
@@ -6,7 +6,7 @@
     max-width: 640px;
 }
 
-@media screen and (max-width : 374px) {
+@media screen and (max-width : 767px) {
     .content-subtitle {
         font-size: 16px;
         line-height: 23px;

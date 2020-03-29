@@ -7,6 +7,7 @@
 @media screen and (max-width : 1023px) {
     .video__container {
         max-width: calc(100% - 24px * 2);
+        margin-top: 56px;
     }
 }
 
@@ -15,5 +16,6 @@
         flex-direction: column;
         align-items: center;
         max-width: calc(100% - 16px * 2);
+        margin-top: 24px;
     }    
 }  

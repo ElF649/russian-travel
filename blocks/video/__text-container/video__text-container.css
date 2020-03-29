@@ -22,10 +22,10 @@
         padding-right: 6px;
         padding-bottom: 24px;
         padding-left: 24px;
-        max-width: 288px;
+        min-width: 322px;
     }
     .video__item:first-child .video__text-container {
-        max-width: 288px;
+        min-width: 288px;
         padding-top: 104px;
         padding-right: 40px;
     }

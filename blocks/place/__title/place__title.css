@@ -1,4 +1,5 @@
 .place__title {
+    font-weight: 900;
     flex-basis: 460px;
     margin-right: 32px;
     margin-top: 0;    
@@ -29,6 +30,8 @@
         font-size: 32px;
         line-height: 35px;
         flex-basis: 0px;
+        width: calc(100% - 16px * 2);
+        margin: auto;
     }
 }    
 @media screen and (max-width : 374px) {

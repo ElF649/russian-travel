@@ -1,7 +1,11 @@
+body {
+    background-color: #2A2C2F;
+}
 .page {
     margin: auto;
     max-width: 1440px;
-    font-family: 'Inter';
+    min-width: 320px;
+    font-family: 'Inter', Arial, sans-serif;
     color: white;
     background-color: #2A2C2F;
 }
