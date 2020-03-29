@@ -2,10 +2,13 @@
     font-weight: 900;
     font-size: 14px;
     line-height: 22px;
+    margin: 0;
 }
 
 @media screen and (max-width : 1023px) {
     .comment__author {
         order: 2;
+        margin-top: 16px;
+        margin-bottom: 24px;
     }
 }
