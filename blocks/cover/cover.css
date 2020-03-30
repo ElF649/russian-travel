@@ -5,8 +5,9 @@
 
 .cover {    
     max-height: 594px;
-    width: calc(100% - 128px * 2);
+    width: calc(100% - 128px * 2);    
     margin: auto;
+    max-width: 1184px;
     
 }
 

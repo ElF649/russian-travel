@@ -12,7 +12,6 @@
     z-index: 0; 
 }
 
-.video__item:hover .video__item-overlay {
-    background-color: black;
+.video__item:hover .video__item-overlay {    
     opacity: 0.8;
   }

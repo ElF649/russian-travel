@@ -7,11 +7,10 @@
     background-color: #2A2C2F;
     opacity: 0.3;
     z-index: 0;
-    transition: background-color linear .5s;
+    transition: opacity linear .5s;
 
 }
 
-.cover__container:hover .cover__container-overlay {
-    background-color: black;
+.cover__container:hover .cover__container-overlay {    
     opacity: 0.8;
   }

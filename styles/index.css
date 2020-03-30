@@ -15,4 +15,5 @@
 @import url('../blocks/comment/comment.css');
 @import url('../blocks/cover/cover.css');
 @import url('../blocks/footer/footer.css');
-@import url('../blocks/main-content/main-content.css')
+@import url('../blocks/wrapper/wrapper.css');
+@import url('../blocks/main-content/main-content.css');

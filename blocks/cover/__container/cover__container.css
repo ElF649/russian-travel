@@ -1,37 +1,42 @@
 .cover__container {
-    background-image: url('../../../images/cover.jpg');     
-    text-decoration: none;        
+    background-image: url('../../../images/cover.jpg');
+    text-decoration: none;
     position: relative;
-    min-height: 594px;    
+    min-height: 594px;
     background-size: 100% 100%;
     color: white;
     display: flex;
     flex-direction: column;
-    align-items: center;    
+    align-items: center;
+    margin: auto;
 }
 
 
 @media screen and (max-width : 1279px) {
     .cover__container {
         min-height: 562px;
+        max-width: 1024px;
     }
 }
 
 @media screen and (max-width : 1023px) {
     .cover__container {
         min-height: 500px;
+        max-width: 768px;
     }
 }
 
 @media screen and (max-width : 767px) {
     .cover__container {
         min-height: 272px;
+        max-width: 375px;
     }
-}  
+}
+
 @media screen and (max-width : 374px) {
     .cover__container {
         min-height: 216px;
+        max-width: 320px;
     }
 
-}  
-   
+}

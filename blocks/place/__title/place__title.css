@@ -29,18 +29,20 @@
     .place__title {
         font-size: 32px;
         line-height: 35px;
-        flex-basis: 0px;
-        
+        flex-basis: 0px;        
         margin: auto;
     }
 }    
-@media screen and (max-width : 374px) {
+
+@media screen and (max-width : 379px) {
     .place__title {
-        width: calc(100% - 16px * 2);
+        width: calc(100% - 16px * 2);        
+    }
+}
+@media screen and (max-width : 374px) {
+    .place__title {        
         font-size: 32px;
         line-height: 35px;
         flex-basis: 0;
     }
 }
-
-    
